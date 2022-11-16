@@ -2,7 +2,7 @@
   "name": "web-server",
   "version": "1.0.0",
   "main": "index.js",
-  "scripts": {
+"scripts": {
     "start": "node src/app.js"
   },
   "keywords": [],
