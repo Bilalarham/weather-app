@@ -1,10 +1,9 @@
 {
   "name": "web-server",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node src/app.js"
   },
   "keywords": [],
   "author": "",
@@ -13,5 +12,15 @@
     "express": "^4.18.2",
     "hbs": "^4.2.0",
     "request": "^2.88.2"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bilalarham/weather-app.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Bilalarham/weather-app/issues"
+  },
+  "homepage": "https://github.com/Bilalarham/weather-app#readme",
+  "description": ""
 }
