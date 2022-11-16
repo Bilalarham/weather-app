@@ -10,7 +10,7 @@ const app= express()
 const directory=path.join(__dirname,"../public")
 const viewPath=path.join(__dirname,'../templates/views')
 const partialPath=path.join(__dirname,'../templates/partials')
-console.log(path.join(__dirname,'../templates/partials'))
+
 
 //setup handles engine and views location
 app.set("view engine","hbs")
